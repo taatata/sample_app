@@ -7,6 +7,8 @@ gem 'rails', '4.0.5'
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard', '2.6.1'
+  gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
